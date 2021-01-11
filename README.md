@@ -3,11 +3,12 @@
 
 a simple lorem ipsum generator with an api for use with curl  
 curl http://metaphorpsum.com/sentences/3  
+```shell
 Mac Sentences: function meta_s() { curl -LSs https://lorum.casjay.now.sh/sentences/$@ | pbcopy ;}  
 Mac Paragraphs: function meta_p() { curl -LSs https://lorum.casjay.now.sh/paragraphs/$@ | pbcopy ;}  
 Linux Sentences: function meta_s() { curl -LSs https://lorum.casjay.now.sh/sentences/$@ | xclip -sel clip ;}  
 Linux Paragraphs: function meta_p() { curl -LSs https://lorum.casjay.now.sh/paragraphs/$@ | xclip -sel clip ;}
-
+```
 ---
 ## Author
 
